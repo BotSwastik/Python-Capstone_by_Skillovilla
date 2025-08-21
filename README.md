@@ -1,15 +1,36 @@
-#Project: Capstone – Python Fundamentals
-Situation: Project data was fragmented across 3 datasets (employees, seniority, projects) with missing values and inconsistent formats.
+## 🐍 Capstone Project – Python Fundamentals (by Skillovilla)
 
-Task: Clean, transform, and integrate the datasets to build a reliable reporting framework.
+### 📌 Project Overview
 
-Action:
-Created and saved 3 dataframes (Employee, Seniority, Project) as .csv for downstream use.
-Imputed missing project costs using a running average loop in Python.
-Split employee names into first/last name and standardized gender-based prefixes.
-Merged all datasets into a unified dataframe (Final) for analysis.
-Automated designation updates: demoted employees on failed projects, promoted those aged 30+.
-Engineered new metrics: bonus (5% of project cost on completions), total project costs per employee.
-Filtered insights (e.g., employees from cities containing “o”).
+This project focused on consolidating fragmented employee and project-related datasets into a **clean, reliable reporting framework**. The objective was to handle **data cleaning, transformation, feature engineering, and business rule automation** using core Python fundamentals.
 
-Result: Delivered a clean, enriched dataset with automated rules for designation changes and cost tracking — demonstrating end-to-end data wrangling, feature engineering, and business rule application using Python (NumPy, Pandas).
+---
+
+### 🔎 Key Insights & Actions
+
+📂  **Data Integration:** 
+* Combined 3 fragmented datasets (**Employees, Seniority, Projects**) into a unified reporting structure after handling missing values and inconsistent formats.
+
+🔧   **Data Cleaning & Standardization:**
+
+  * Split employee names into **first/last names** and standardized **gender-based prefixes**.
+  * Imputed missing project costs using a **running average loop**.
+
+⚙️ **Business Rule Automation:**
+
+ * **Designation Updates:** Automated promotions (employees aged 30+) and demotions (on failed projects).
+ * **Bonus Calculations:** Engineered bonus metric = **5% of project cost on completions**.
+ * Tracked **total project costs per employee** for financial insights.
+
+📊 **Analytical Insights:**
+
+ * Filtered subsets, e.g., **employees from cities containing “o”**, demonstrating advanced querying capabilities.
+
+---
+
+### ⚙️ Technologies Used
+
+ * **Language:** Python
+ * **Libraries:** NumPy, Pandas
+ * **Data Storage:** CSV (Employee, Seniority, Project, Final Unified Dataset)
+
